@@ -8,6 +8,7 @@ import {
   useContractMetadata,
   useTotalCirculatingSupply,
   Web3Button,
+  useContractRead,
 } from "@thirdweb-dev/react";
 import { BigNumber, utils } from "ethers";
 import type { NextPage } from "next";
@@ -17,7 +18,7 @@ import { parseIneligibility } from "../utils/parseIneligibility";
 
 // Put Your Edition Drop Contract address from the dashboard here
 const myEditionDropContractAddress =
-  "0xDC8017E1E20BFF80a49B0B92F719f00170013B4F";
+  "0xa5fF390E76EfaC19DCC44aBFBFe19422c9275dB4";
 
 // Put your token ID here
 const tokenId = 0;
@@ -226,20 +227,25 @@ const Home: NextPage = () => {
               <p className={styles.description}>
                 {contractMetadata?.description}
               </p>
+              <p>
+                !Please ensure to increase the gas fees and wei to 7 while claiming! 
+              </p>
             </div>
 
             <div className={styles.imageSide}>
               {/* Image Preview of NFTs */}
+              <picture>
               <img
                 className={styles.image}
                 src={contractMetadata?.image}
                 alt={`${contractMetadata?.name} preview image`}
               />
+              </picture>
 
               {/* Amount claimed so far */}
               <div className={styles.mintCompletionArea}>
                 <div className={styles.mintAreaLeft}>
-                  <p>Total Minted</p>
+                  <p>Total Tickets Claimed</p>
                 </div>
                 <div className={styles.mintAreaRight}>
                   {claimedSupply ? (
@@ -318,12 +324,14 @@ const Home: NextPage = () => {
         )}
       </div>
       {/* Powered by thirdweb */}{" "}
+      <picture>
       <img
-        src="/logo.png"
+        src="/logo.jpg"
         alt="thirdweb Logo"
         width={135}
         className={styles.buttonGapTop}
       />
+      </picture>
     </div>
   );
 };
