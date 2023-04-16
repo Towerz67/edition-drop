@@ -18,7 +18,7 @@
 
 .mintInfoContainer {
   display: flex;
-  /*background-color: rgb(40, 191, 211);*/
+  background-color: rgb(40, 191, 211);
   background-image: url("/public/bg1.jpg");
   flex-direction: row;
   align-items: center;
