@@ -228,7 +228,7 @@ const Home: NextPage = () => {
                 {contractMetadata?.description}
               </p>
               <p>
-                !Please ensure to increase the gas fees and wei to 7 while claiming! 
+                !Please ensure to increase the gas to around 68000 and wei to 7 while claiming! 
               </p>
             </div>
 
