@@ -3,7 +3,7 @@
 /* Change the values in here to match your branding */
 :root {
   /* Background color of the page */
-  --background-color: #1c1e21;
+  --background-color: #000000;
 
   /* Color of the text/words */
   --text-color: #af21d6;
@@ -26,7 +26,6 @@
 /* Default design values of the entire document */
 
 body {
-  background-image: url("/public/bg1.jpg");
   background: var(--background-color);
   font-family: var(--font);
   color: var(--text-color);
