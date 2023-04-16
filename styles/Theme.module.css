@@ -19,6 +19,7 @@
 .mintInfoContainer {
   display: flex;
   background-color: rgb(40, 191, 211);
+  background-image: url("/public/bg1.jpg");
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -43,7 +44,6 @@
 
 .infoSide {
   display: flex;
-  background-image: url("/public/bg1.jpg");
   flex-direction: column;
   align-items: center;
   width: 45%;
