@@ -4,7 +4,7 @@ import "../styles/globals.css";
 import Head from "next/head";
 import ThirdwebGuideFooter from "../components/GitHubLink";
 
-
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"></link>
 
 // This is the chainId your dApp will work on.
 const activeChainId = "binance";
