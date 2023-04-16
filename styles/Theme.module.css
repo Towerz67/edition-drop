@@ -43,6 +43,7 @@
 
 .infoSide {
   display: flex;
+  background-image: url("/public/bg1.jpg");
   flex-direction: column;
   align-items: center;
   width: 45%;
