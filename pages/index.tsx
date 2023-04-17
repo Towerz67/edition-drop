@@ -228,7 +228,7 @@ const Home: NextPage = () => {
                 {contractMetadata?.description}
               </p>
               <p>
-                !Please ensure to increase the gas to around 68000 and wei to 7 while claiming! 
+                !Due to rebase gas estimation is difficult for your wallets. Please if you are having issues increase the wei by 1 or 2 in advanced settings! 
               </p>
             </div>
 
