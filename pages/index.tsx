@@ -227,9 +227,6 @@ const Home: NextPage = () => {
               <p className={styles.description}>
                 {contractMetadata?.description}
               </p>
-              <p>
-                !Due to rebase gas estimation is difficult for your wallets. Please if you are having issues increase the wei by 1 or 2 in advanced settings! 
-              </p>
             </div>
 
             <div className={styles.imageSide}>
