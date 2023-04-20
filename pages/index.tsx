@@ -223,9 +223,15 @@ const Home: NextPage = () => {
             <div className={styles.infoSide}>
               {/* Title of your NFT Collection */}
               <h1>{contractMetadata?.name}</h1>
+              <h2>Round 2</h2>
               {/* Description of your NFT Collection */}
               <p className={styles.description}>
                 {contractMetadata?.description}
+              </p>
+              <h2>Raffle Results</h2>
+              <p>The first round of the ES2 raffle was a succes! A total of 115,591.88 ES2 was sent to the fire pit!
+                 The winning wallet, picked via live drawing, was 0xFeF0c1670cb569008bB3d070918922dBb4F92De4. The owner
+                 of that wallet recevied 64,112 ES2!
               </p>
             </div>
 
@@ -324,7 +330,7 @@ const Home: NextPage = () => {
       <picture>
       <img
         src="/logo.jpg"
-        alt="thirdweb Logo"
+        alt="ES2 Logo"
         width={135}
         className={styles.buttonGapTop}
       />
