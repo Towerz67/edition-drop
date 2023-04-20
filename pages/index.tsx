@@ -229,12 +229,12 @@ const Home: NextPage = () => {
                 {contractMetadata?.description}
               </p>
               <h2>Raffle Results</h2>
-              <p className={styles.raffleUpdates}>The first round of the ES2 raffle was a succes! A total of 115,591.88 ES2 was sent to the fire pit!
-                 The winning wallet, picked via live drawing, was 0xFeF0c1670cb569008bB3d070918922dBb4F92De4. The owner
-                 of that wallet recevied 64,112 ES2!
+              <p className={styles.raffleUpdates}>The first round of the ES2 raffle was a succes! A total of <strong>115,591.88 ES2</strong> was sent to the fire pit!
+                 The winning wallet, picked via live drawing, was <strong>0xFeF0c1670cb569008bB3d070918922dBb4F92De4</strong>. The owner
+                 of that wallet recevied <strong>64,112 ES2!</strong>
               </p>
               <h4>
-                <a href="https://1drv.ms/x/s!AuRbZfZ7BfVVgrh_tQjS-SDmpf1Vwg">Link to Results and Transactions Spreadsheet</a>
+                <a href="https://1drv.ms/x/s!AuRbZfZ7BfVVgrh_hoAbJ3Bbov-wgQ?e=R6PhYR">Link to Results and Transactions Spreadsheet</a>
               </h4>
             </div>
 
