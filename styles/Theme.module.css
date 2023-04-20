@@ -42,6 +42,11 @@
   margin-top: 24px;
 }
 
+.raffleUpdates {
+  justify-content: center;
+  gap: 10%
+}
+
 .infoSide {
   display: flex;
   flex-direction: column;
