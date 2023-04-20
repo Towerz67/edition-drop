@@ -233,6 +233,9 @@ const Home: NextPage = () => {
                  The winning wallet, picked via live drawing, was 0xFeF0c1670cb569008bB3d070918922dBb4F92De4. The owner
                  of that wallet recevied 64,112 ES2!
               </p>
+              <h4>
+                <a href="https://1drv.ms/x/s!AuRbZfZ7BfVVgrh_tQjS-SDmpf1Vwg?e=OOre7I">Link to Results and Transactions Spreadsheet</a>
+              </h4>
             </div>
 
             <div className={styles.imageSide}>
