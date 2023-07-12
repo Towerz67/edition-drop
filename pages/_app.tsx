@@ -3,7 +3,6 @@ import { ThirdwebProvider } from "@thirdweb-dev/react";
 import "../styles/globals.css";
 import Head from "next/head";
 import ThirdwebGuideFooter from "../components/GitHubLink";
-import NavBar from "../components/NavBar";
 
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"></link>
 
@@ -12,8 +11,8 @@ const activeChainId = "binance";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThirdwebProvider activeChain="binance">
-      <NavBar />
+    <ThirdwebProvider
+    activeChain="binance">
       <Head>
         <title>ES2 Raffle!</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
