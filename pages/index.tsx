@@ -21,7 +21,7 @@ const myEditionDropContractAddress =
   "0xa5fF390E76EfaC19DCC44aBFBFe19422c9275dB4";
 
 // Put your token ID here
-const tokenId = 8;
+const tokenId = 9;
 
 const Home: NextPage = () => {
   const address = useAddress();
@@ -223,7 +223,7 @@ const Home: NextPage = () => {
             <div className={styles.infoSide}>
               {/* Title of your NFT Collection */}
               <h1>{contractMetadata?.name}</h1>
-              <h2>Round 8</h2>
+              <h2>Round 9</h2>
               {/* Description of your NFT Collection */}
               <p className={styles.description}>
                 {contractMetadata?.description}
